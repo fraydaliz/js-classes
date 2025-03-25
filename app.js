@@ -11,7 +11,7 @@ Person.prototype.greet = function() {
     console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
 };
 
-const jessica = new Person("jessica", 30);
+const jessica = new Person("jessica", 25);
 
 jessica.greet()
 
